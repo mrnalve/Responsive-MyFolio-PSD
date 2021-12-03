@@ -1,0 +1,112 @@
+@media(min-width:992px) and (max-width:1199.98px){
+    
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .border_cmn{
+        border-right: none;
+    } 
+}
+@media(min-width:576px) and (max-width:767.98px){
+    .border_cmn{
+        border-right: none;
+    } 
+}
+@media(min-width:576px) and (max-width:610px){
+    .image .overlay{
+        padding: 25px 35px;
+    }
+}
+@media(min-width:768px) and (max-width:888px){
+    .image .overlay{
+        padding: 10px 35px;
+        inset: 10px;
+    }
+}
+@media(min-width:992px) and (max-width:1037px){
+    .image .overlay{
+        padding: 10px 35px;
+        inset: 10px;
+    }
+    .image .overlay h4{
+        padding-bottom: 5px;
+    }
+}
+@media(min-width:1038px) and (max-width:1210px){
+    .image .overlay{
+        padding: 30px 35px;
+        inset: 10px;
+    }
+    .image .overlay h4{
+        padding-bottom: 5px;
+    }
+}
+@media(max-width:767px){
+    .logo{
+        padding: 10px 0;
+    }
+    #mynav ul li a{
+        padding: 20px 20px;
+        text-align: center;
+    }
+    #mynav ul{
+        padding-top: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #fff;
+    }
+    /* banner part */
+    .banner_itmes{
+        height: 350px;
+    }
+    .heading_1{
+        font-size: 36px;
+    }
+
+    .banner_itmes .banner_cnt h3{
+        font-size: 15px;
+        font-weight: 400;
+     }
+     .banner_itmes .banner_cnt h1{
+        font-size: 25px;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+     }
+     .banner_itmes .banner_cnt p{
+        font-size: 10px;
+        font-weight: 400;
+     }
+     .banner_cnt .banner_icon{
+        padding: 20px 0;
+     }
+     
+     .banner_cnt .know_more{
+         background-color: #cfc91d;
+         color: black;
+         padding: 9px 10px;
+         font-size: 14px;
+         font-weight: 800;
+     } 
+     #about{
+        padding: 60px 0;
+    }
+    /* work part */
+     #work{
+        padding: 60px 0;
+    }
+    #work .work_p {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media(max-width:575px){
+    /* about part */
+    .about_card{
+        border-bottom: 1px solid  rgb(209, 209, 209);
+    }
+    .about_card_four{
+        border-bottom: none;
+    }
+    .about_card_part{
+        padding-top: 50px;
+    }
+}
